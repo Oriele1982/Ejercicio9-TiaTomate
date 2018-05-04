@@ -1,0 +1,171 @@
+/* Body Style */
+
+body{
+	margin: 0; 
+	padding: 0;
+	width: 100%;  
+}
+
+/* Hieratic */
+
+h1 h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+span{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+
+h2 p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* COLUMNS */
+
+.row{
+	margin: 0;
+}
+
+.col-md-7{
+	width: 60%;
+}
+
+.col-md-5{
+	width: 40%;
+}
+
+.col-sm-12{
+	width: 100%;
+}
+
+.col-md-4{
+	width: 50%;
+} 
+
+.col-md-offset-2{
+	width: 20%;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+	background-color: #E56353;
+	color: #FFFFFF; 
+	padding: 0;
+	margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar_tia-tomate{
+	width: 100%;
+	padding: 0;
+}
+
+.logo_navbar{
+	width: 50%;
+}
+
+a{
+	color: #707070;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+button.navbar-toggle.collapsed{
+	background-color: #707070;
+}
+
+span.icon-bar{
+	color: #FFFFFF;
+
+}
+
+/* HEADER */
+
+.header_tia-tomate{
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+.title_tia-tomate{
+	width: 55%;
+	margin-left: 20%;
+	padding: 50px;
+}
+
+
+/* PRODUCTS */
+
+.img_tia-tomate{
+	width: 60%;
+	padding: 0;
+	margin: 0;
+}
+
+.history_tia-tomate{
+	width: 40%;
+	padding: 155px 60px 158px 60px;
+	background-color: #707070;
+	color: #FAFAFA;
+}
+
+.products_tia-tomate{
+	width: 60%;
+	padding: 110px 80px 118px 80px;
+	background-color: #FAFAFA;
+	color: #707070;
+
+}
+.img2_tia-tomate{
+	width: 40%;
+	padding: 0;
+	margin: 0;
+}
+
+/* BLOG */
+
+.container_tia-tomate{
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+}
+
+.blog_tia-tomate{
+	background-color: #FAFAFA;
+}
+
+.img-kunstmann, .img-pacheco{
+	margin: 40px;
+}
+
+.text_tia-tomate{
+	width: 80%;
+	margin: 70px;
+}
+
+/* CONTACT */
+
+.contact_tia-tomate, h2{
+	margin: 0;
+	padding: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.btn{
+	background-color: #FFFFFF;
+
+	border-color: #707070;
+	padding: 15px 70px 15px 70px;
+}
+
+.btn:hover{
+	background-color: #686963;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}

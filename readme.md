@@ -15,7 +15,7 @@ Según sus requerimientos la página debe:
 
 ### Desarrollo: 
 
-Para realizar la maquetación de la página Tía Tomate, tenemos como referente el mockup realizado por el diseñador anterior el cual nos adjunta una guía de estilos para poder realizar dicha página.
+Para realizar la maquetación de la página Tía Tomate, tenemos como referente el mockup en versión ESCRITORIO realizado por el diseñador anterior el cual nos adjunta una guía de estilos para poder realizar dicha página.
 
 # PASO 1 - SKETCH:
 
@@ -33,7 +33,7 @@ Para realizar la maquetación de la página Tía Tomate, tenemos como referente 
 
 
 
-3.- Dentro de las secciones se localizan los elementos que las componen segun lo visualizado en el mockup (títulos, subtítulos, párrafos, imágenes, botones, íconos).
+3.- Dentro de las secciones se localizan los elementos que las componen segun lo visualizado en el mockup (títulos, subtítulos, párrafos, imágenes, botones, íconos, background-color).
 
 # PASO 2 - CREACIÓN DIRECTORIO Y DEPENDENCIAS PÁGINA TIA TOMATE:
 
@@ -66,18 +66,35 @@ Para realizar la maquetación de la página Tía Tomate, tenemos como referente 
   	- CDN FONT AWESOME -- UTILIZACIÓN DE ÍCONOS
   	- CDN GOOGLE FONTS  -- UTILIZACIÓN DE FUENTES DE GOOGLE
 
-  	**No olvidar también enlazar los archivos locales css y js**
+  	**No olvidar también enlazar los archivos locales css y js + imágenes correspondientes**
 
 # PASO 3 - CREACIÓN ESTRUCTURA PÁGINA TIA TOMATE :
 
  1.- Para la creación de la página, debemos considerar el sketch realizado para identificar las secciones que se encuentran dentro de esta estructura (mencionadas anteriormente).
 
- 2.- Viendo la disposición de los elementos en el sketch podemos considerar trabajar con un layout de 2 columnas para la versión de ESCRITORIO  y un layout de 1 columna para la versión mobile.
+ 2.- Viendo la disposición de los elementos en el sketch podemos considerar trabajar con un layout de 2 columnas para la versión de ESCRITORIO  y un layout de 1 columna para la versión MOBILE.
 
  3.- Luego comenzamos con la construcción misma de la página, y por medio de la METODOLOGÍA BEM, le daremos las clases respectivas a los elementos para poder darle estilos en css.
 
 
 # PASO 4 - CREACIÓN ESTILOS PÁGINA TIA TOMATE :
+ 1.- Para los estilos contamos con la GUÍA DE ESTILOS que venía indexada con el mockup hecho por el diseñador.
+
+ 2.- Los principales estilos a utilizar son:
+ 		*COLORES:
+ 				#656353
+ 				#686963
+ 				#707070
+ 				#FAFAFA
+ 				#FFFFFF
+
+ 		*FONTS:
+ 				Raleway-Bold.tff
+ 				Raleway-Extra-Light.tff
+ 				Open Sans.tff
+
+ 		**IMÁGENES**
+ 				La carpeta assets indexada al mockup cuenta con una cantidad de 6 imágenes, 2 de el perfil de los dueños de TÍA TOMATE, 2 de sus productos y calidad, el TOMATE DE LIMACHE; más 2 imágenes del logo utilizadas en el navbar y footer.
 
 
 
