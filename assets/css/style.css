@@ -26,6 +26,7 @@ h2 p{
 
 .row{
 	margin: 0;
+	padding: 0;
 }
 
 .col-md-7{
@@ -48,13 +49,8 @@ h2 p{
 	width: 20%;
 }
 
-/* JUMBOTRON */
-
-.jumbotron{
-	background-color: #E56353;
-	color: #FFFFFF; 
-	padding: 0;
-	margin: 0;
+.col-md-3{
+	width: 30%;
 }
 
 /* NAVBAR */
@@ -79,10 +75,7 @@ button.navbar-toggle.collapsed{
 	background-color: #707070;
 }
 
-span.icon-bar{
-	color: #FFFFFF;
 
-}
 
 /* HEADER */
 
@@ -90,6 +83,13 @@ span.icon-bar{
 	width: 100%;
 	text-align: center;
 	padding: 0;
+}
+
+.jumbotron{
+	background-color: #E56353;
+	color: #FFFFFF; 
+	padding: 0;
+	margin: 0;
 }
 
 .title_tia-tomate{
@@ -105,6 +105,7 @@ span.icon-bar{
 	width: 60%;
 	padding: 0;
 	margin: 0;
+	display: table-cell;
 }
 
 .history_tia-tomate{
@@ -112,6 +113,8 @@ span.icon-bar{
 	padding: 155px 60px 158px 60px;
 	background-color: #707070;
 	color: #FAFAFA;
+	box-sizing: border-box;
+	
 }
 
 .products_tia-tomate{
@@ -125,6 +128,25 @@ span.icon-bar{
 	width: 40%;
 	padding: 0;
 	margin: 0;
+}
+
+@media screen only and (min-width: 480px) {
+	.img_tia-tomate{
+		width: 100%;
+	}
+
+	.history_tia-tomate .col-md-5{
+		width: 100%;
+	}
+
+	.products_tia-tomate{
+		width: 100%;
+		text-orientation: 
+	}
+
+	.img2_tia-tomate{
+		width: 100%;
+	}
 }
 
 /* BLOG */
@@ -148,6 +170,13 @@ span.icon-bar{
 	margin: 70px;
 }
 
+@media only screen and (min-width: 480px) {
+	.img-kunstmann, .img-pacheco{
+		width: 100%;
+		float: right;
+	}
+}
+
 /* CONTACT */
 
 .contact_tia-tomate, h2{
@@ -159,7 +188,7 @@ span.icon-bar{
 
 .btn{
 	background-color: #FFFFFF;
-
+	border-radius: 30px;
 	border-color: #707070;
 	padding: 15px 70px 15px 70px;
 }
@@ -168,4 +197,51 @@ span.icon-bar{
 	background-color: #686963;
 	color: #FFFFFF;
 	border-color: #FFFFFF;
+}
+
+/* FOOTER */
+
+.footer__tia-tomate{
+	width: 100%;
+	background-color: #686963;
+	color: #FFFFFF;
+	padding: 70px;
+}
+
+.logo_tia-tomate{
+	width: 40%;
+}
+
+.icons_tia-tomate{
+	padding: 25px;
+	text-align: center;
+	margin-left: 10%;
+}
+
+.fa-facebook-square{
+	font-size: 50px;
+	background-color: #686963;
+	color: #FFFFFF;
+	border-radius: 60px;
+}
+.fa-instagram, .fa-twitter{
+	font-size: 50px;
+	background-color: #FFFFFF;
+	color: #686963;
+	margin-left: 20px;
+	padding: 5px;
+	border-radius: 30px;
+	border: 3px solid white;
+}
+
+.list_tia-tomate {
+	list-style: none;
+	margin-left: 50%;
+
+}
+
+@media only screen and (min-width: 480px) {
+	.tia-tomate_row{
+		width: 50%;
+	}
 }
