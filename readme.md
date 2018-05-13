@@ -76,6 +76,8 @@ Para realizar la maquetación de la página Tía Tomate, tenemos como referente 
 
  3.- Luego comenzamos con la construcción misma de la página, y por medio de la METODOLOGÍA BEM, le daremos las clases respectivas a los elementos para poder darle estilos en css.
 
+ 4.- Se usarán media queries para hacerla responsive en formato mobile.
+
 
 # PASO 4 - CREACIÓN ESTILOS PÁGINA TIA TOMATE :
  1.- Para los estilos contamos con la GUÍA DE ESTILOS que venía indexada con el mockup hecho por el diseñador.
@@ -96,6 +98,9 @@ Para realizar la maquetación de la página Tía Tomate, tenemos como referente 
  		**IMÁGENES**
  				La carpeta assets indexada al mockup cuenta con una cantidad de 6 imágenes, 2 de el perfil de los dueños de TÍA TOMATE, 2 de sus productos y calidad, el TOMATE DE LIMACHE; más 2 imágenes del logo utilizadas en el navbar y footer.
 
+
+** LINK PROYECTO EN GITHUB **
+https://github.com/Oriele1982/Ejercicio9-TiaTomate
 
 
 
